@@ -56,6 +56,7 @@ def CPU_Active():
     match input("[R] Rock\n[P] Paper\n[S] Sisscors:\n: "):    
         case "R":
             while True:
+                os.system('cls')
                 print(f"You've selectd 'Rock'")
                 if (random.choice(CPU)) == P:
                     print("Computer chose Paper")
@@ -88,6 +89,7 @@ def CPU_Active():
 
         case "P":
             while True:
+                os.system('cls')
                 print("You've selected 'Paper'")
                 if (random.choice(CPU)) == P:
                     print("Computer chose Paper")
@@ -120,6 +122,7 @@ def CPU_Active():
 
         case "S":
             while True:
+                os.system('cls')
                 print("You've Selected 'Sisscors'")
                 if (random.choice(CPU)) == S:
                     print("Computer chose sisscors")
